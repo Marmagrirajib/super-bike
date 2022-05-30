@@ -7,7 +7,7 @@ const AddProduct = () => {
     const { errors } = formState;
     const onSubmit = async userData => {
         console.log(userData);
-        const url = 'http://localhost:5000/part';
+        const url = 'https://murmuring-springs-55842.herokuapp.com/part';
 
         fetch(url, {
             method: 'POST',

@@ -6,7 +6,7 @@ const RowUser = ({user,refetch,index}) => {
     const {email,role}=user;
     console.log(email);
     const makeAdmin =()=>{
-        fetch(`http://localhost:5000/user/admin/${email}`,{
+        fetch(`https://murmuring-springs-55842.herokuapp.com/user/admin/${email}`,{
             method:'PUT',
             headers: {
                 'authorization': `Bearer ${localStorage.getItem('accessToken')}`

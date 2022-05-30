@@ -9,7 +9,7 @@ const Orders = () => {
 
         const getMyOrders = async () => {
             const email = user.email;
-            fetch(`http://localhost:5000/orders?email=${email}`, {
+            fetch(`https://murmuring-springs-55842.herokuapp.com/orders?email=${email}`, {
                 method: 'GET',
                 headers: {
                     'authorization': `Bearer ${localStorage.getItem('accessToken')}`
@@ -28,7 +28,7 @@ const Orders = () => {
         getMyOrders()
     }, [user])
     const CancelItem = id => {
-        const url = `http://localhost:5000/order/${id}`;
+        const url = `https://murmuring-springs-55842.herokuapp.com/order/${id}`;
         fetch(url, {
             method: "DELETE"
         })

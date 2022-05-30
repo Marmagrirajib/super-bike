@@ -13,7 +13,7 @@ const Profile = () => {
   useEffect(() => {
     const email = (user.email);
     console.log(email);
-    fetch(`http://localhost:5000/profile/${email}`,{
+    fetch(`https://murmuring-springs-55842.herokuapp.com/profile/${email}`,{
         method: 'GET',
         headers: {
             'authorization': `Bearer ${localStorage.getItem('accessToken')}`
@@ -24,7 +24,7 @@ const Profile = () => {
   }, [])
   const onSubmit = userData => {
     console.log(userData);
-    const url = `http://localhost:5000/profile/${user.email}`;
+    const url = `https://murmuring-springs-55842.herokuapp.com/profile/${user.email}`;
 
     fetch(url, {
       method: 'PUT',

@@ -21,7 +21,7 @@ const PartDetails = ({ tool, setBuys }) => {
 
 
     useEffect(() => {
-        const url = `http://localhost:5000/part/${toolId}`
+        const url = `https://murmuring-springs-55842.herokuapp.com/part/${toolId}`
         fetch(url)
             .then(res => res.json())
             .then(data => {
@@ -40,7 +40,7 @@ const PartDetails = ({ tool, setBuys }) => {
         console.log(userData);
 
 
-        const url = 'http://localhost:5000/orders';
+        const url = 'https://murmuring-springs-55842.herokuapp.com/orders';
 
         fetch(url, {
             method: 'POST',

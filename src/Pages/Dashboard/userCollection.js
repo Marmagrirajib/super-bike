@@ -5,7 +5,7 @@ import RowUser from './RowUser';
 
 
 const UserCollection = () => {
-    const { data: users, isLoading ,refetch} = useQuery('order', () => fetch('http://localhost:5000/user',{
+    const { data: users, isLoading ,refetch} = useQuery('order', () => fetch('https://murmuring-springs-55842.herokuapp.com/user',{
         method: 'GET',
                 headers: {
                     'authorization': `Bearer ${localStorage.getItem('accessToken')}`

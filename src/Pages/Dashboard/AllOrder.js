@@ -5,7 +5,7 @@ import { useQuery } from 'react-query';
 import OrderRow from './OrderRow';
 
 const AllOrder = () => {
-    const { data: orders, isLoading,refetch } = useQuery('order', () => fetch('http://localhost:5000/order')
+    const { data: orders, isLoading,refetch } = useQuery('order', () => fetch('https://murmuring-springs-55842.herokuapp.com/order')
         .then(res => res.json()))
     if (isLoading) {
         return;
