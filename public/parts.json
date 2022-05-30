@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Luggage carrier",
+        "image": "https://img.freepik.com/free-photo/bicycle-mechanic-workshop-with-bike-parts-wheel-background_613910-14252.jpg",
+        "description": "any accessory equipment designed to carry tools, gear or cargo",
+        "price": "$1400",
+        "order": "50",
+        "quantity": "1000",
+        "supplier": "Hunggama"
+    },
+    {
+        "id": 2,
+        "name": "Rim",
+        "image": "https://img.freepik.com/free-photo/man-checking-bicycle-rim-sport-shop_23-2147892651.jpg",
+        "description": "that part of a wheel to which the tire is attached and often forms part of the braking mechanism",
+        "price": "$1200",
+        "order": "50",
+        "quantity": "100",
+        "supplier": "Ali Baba"
+    },
+    {
+        "id": 3,
+        "name": "Down tube",
+        "image": "https://img.freepik.com/free-photo/father-paints-bicycle-child_472916-4271.jpg",
+        "description": " tube on the bicycle frame that runs from the head tube to the bottom bracket",
+        "price": "$2400",
+        "order": "50",
+        "quantity": "100",
+        "supplier": "Hildegard"
+    },
+    {
+        "id": 4,
+        "name": "Hub gear",
+        "image": "https://img.freepik.com/free-photo/mechanic-holding-bicycle-gear_1170-2509.jpg",
+        "description": "a gearbox mounted inside the hub, 3-speed is common, 5, 7 are available and Rohloff make a 14-speed hub.",
+        "price": "$2100",
+        "order": "50",
+        "quantity": "100",
+        "supplier": "Suzuki"
+    },
+    {
+        "id": 5,
+        "name": "Bar ends",
+        "image": "https://img.freepik.com/free-photo/man-holding-rubber-bicycle-part_23-2147892660.jpg",
+        "description": "extensions at the end of straight handlebars to allow for multiple hand positions",
+        "price": "$3500",
+        "order": "50",
+        "quantity": "100",
+        "supplier": "Tesla"
+    },
+    {
+        "id": 6,
+        "name": "Pedal",
+        "image": "https://img.freepik.com/free-photo/pedals-bicycle-stand-store_165146-365.jpg",
+        "description": "mechanical interface between foot and crank arm. There are two general types; one secures the foot.",
+        "price": "$5000",
+        "order": "50",
+        "quantity": "100",
+        "supplier": "Jhankar Auto"
+    }
+]
